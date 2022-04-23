@@ -12,7 +12,7 @@ function WhyChooseUs() {
             </p>
 
             <div className="choose-container">
-                <div data-aos="slide-left" data-aos-duration="1000">
+                <div data-aos="slide-up" data-aos-duration="1000">
                     <img src={How2} alt="" />
                     <h3>Choose your Menu </h3>
                     <p>
@@ -20,7 +20,7 @@ function WhyChooseUs() {
                     </p>
                 </div>
 
-                <div data-aos="slide-right" data-aos-duration="1000">
+                <div data-aos="slide-up" data-aos-duration="1000">
                     <img src={How1} alt="" />
                     <h3>Set delivery location</h3>
                     <p>
@@ -28,7 +28,7 @@ function WhyChooseUs() {
                     </p>
                 </div>
 
-                <div data-aos="slide-left" data-aos-duration="1000">
+                <div data-aos="slide-up" data-aos-duration="1000">
                     <img src={How3} alt="" />
                     <h3>Receive it at your doorstep</h3>
                     <p>
