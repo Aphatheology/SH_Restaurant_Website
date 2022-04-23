@@ -1,9 +1,14 @@
 import React from 'react'
+import HeroSection from './HeroSection'
+import "./Homepage.css"
+import WhyChooseUs from './WhyChooseUs'
+
 
 function Homepage() {
   return (
-    <div>
-        <h2>This is the homepage</h2>
+    <div className='homepage'>
+        <HeroSection />
+        <WhyChooseUs />
     </div>
   )
 }
