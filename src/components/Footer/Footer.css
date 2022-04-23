@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;500;600;700&display=swap');
+
+.footer {
+  font-family: 'Cormorant Upright', serif;
+  color: hsla(47, 55%, 70%, 1);
+  position: relative;
+  bottom: 0;
+  padding-bottom: 50px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background: #0C0C0C;
+  box-sizing: border-box;
+  padding: 22px 152px;
+  width: 934px;
+  height: 342px;
+}
+
+.sub h2{
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #DCCA87;
+}
+
+.newsletter p {
+  color: #ffffff;
+}
+
+.form{
+  margin-top: 40px;
+}
+
+.form input {
+  border: 1px solid #F5EFDB;
+  box-sizing: border-box;
+  outline: none;
+  background: #0C0C0C;
+  width: 465px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.form button {
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  color: #0C0C0C;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  background: #DCCA87;
+  border: 1px solid #DCCA87;
+  padding: 4px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-text{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.c-details h1{
+  font-size: 40px;
+}
+
+.contact-us, .work-hours{
+  padding-top: 30px;
+}
+
+.contact-us p, .c-details p, .work-hours p, .rights{
+  color: #ffffff;
+  font-family: Open Sans;
+  line-height: 175%;
+}
+
+.c-details .social-icons{
+  margin-top: 40px;
+}
+
+.social-icons img{
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .sub{
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .sub h2{
+    word-wrap: break-word;
+    font-size: 28px;
+  }
+
+  .form input, .form button{
+    width: 100%;
+  }
+
+  .form button{
+    margin-top: 10px;
+  }
+
+  .footer-text{
+    flex-direction: column;
+    padding: 0;
+  }
+}
