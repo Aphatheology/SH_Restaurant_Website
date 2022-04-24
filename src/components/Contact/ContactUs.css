@@ -28,7 +28,8 @@
 .info p{
     color: white;
 }
-img{
+
+.contactUs img{
     height: 30px;
     width: 30px;
     size: contain;

@@ -83,8 +83,8 @@ nav ul li:hover {
     width: 250px;
     height: 250px;
     /* height: 250px; */
-
-    inline-size: auto;
+    margin: 0px auto;
+    /* inline-size: auto; */
   }
   
   .hero div {
