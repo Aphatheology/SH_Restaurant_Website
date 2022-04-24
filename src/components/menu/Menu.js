@@ -4,6 +4,8 @@ import data from '../../constants/data';
 import MenuItem from '../MenuItem/MenuItem';
 
 import images from '../../constants/images';
+import menu from '../../images/menu.png';
+import spoon from '../../images/spoon.png'
 import './Menu.css';
 
 
@@ -14,7 +16,7 @@ const Menu = () => {
     <div className="app__specialMenu-title">
     <div style={{ marginBottom: '1rem' }}>
     <p className="p__cormorant">Menu that fits you palatte</p>
-    <img src={images.spoon} alt="spoon_image" className="spoon__img" />
+    <img src={spoon} alt="spoon_image" className="spoon__img" />
   </div>
       <h1 className="headtext__cormorant">Our Today Special Menu</h1>
     </div>
@@ -30,7 +32,7 @@ const Menu = () => {
       </div>
 
       <div className="app__specialMenu-menu_img">
-        {<img src={images.menu} alt="menu__img" /> }
+        {<img src={menu} alt="menu__img" /> }
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
