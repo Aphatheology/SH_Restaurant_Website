@@ -1,10 +1,9 @@
 import React from 'react'
-import Menu from './menu/Menu'
 
 function MainMenu() {
   return (
     <div>
-        <Menu />
+        <h2>Menu</h2>
     </div>
   )
 }
