@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contactForm{
+    font-family: 'Cormorant Upright', serif;
+    color: hsla(47, 55%, 70%, 1);
+    background-color: hsla(0, 9%, 2%, 1);
+    
+   
+}
+.input{
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 550px;
+    
+}
+.form{
+    padding: 20px;
+    
+   }
+   
+.formContain{
+  
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.formPic{
+    height: 500px;
+    width: 500px;
+ 
+
+}
+.formPic img{
+    height: 500px;
+    width: 400px;
+    
+
+}
+
+.submit:hover{
+    cursor: grabbing;
+    background-color: darkgoldenrod;
+
+}
+@media (max-width: 668px) {
+    .formPic{
+        display: none;
+    }
+   
+    }
