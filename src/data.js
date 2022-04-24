@@ -57,5 +57,5 @@ const cocktails = [
 ];
 
 
-
-export default { wines, cocktails };
+const exportedObject = { wines, cocktails }
+export default exportedObject;
