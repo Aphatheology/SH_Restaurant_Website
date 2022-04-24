@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contactUs{
+    font-family: 'Cormorant Upright', serif;
+    color: hsla(47, 55%, 70%, 1);
+    background-color: hsla(0, 9%, 2%, 1);
+    
+   
+}
+.contactInfo{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.info {
+    color: hsla(47, 55%, 70%, 1);
+    height: 150px;
+}
+.info h2{
+    font-size: 35px;
+}
+.info p{
+    color: white;
+}
+img{
+    height: 30px;
+    width: 30px;
+    size: contain;
+    
+}
