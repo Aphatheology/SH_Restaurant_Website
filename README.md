@@ -16,4 +16,9 @@
 
 - A footer 
 
-
+### Team Members
+- Abdulkareem Mustopha
+- Favour
+- Emmanuel
+- Chimdi
+- Moses
