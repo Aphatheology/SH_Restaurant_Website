@@ -8,7 +8,7 @@ function WhyChooseUs() {
         <section className="why-choose">
             <h2>Why choose SH Restaurant?</h2>
             <p className="choose">
-                We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.
+                We makes it simple for anybody to use a mobile device to look over our menu and place an order with fast home delivery service
             </p>
 
             <div className="choose-container">

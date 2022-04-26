@@ -6,6 +6,9 @@ import About from './components/About';
 import Contact from './components/Contact';
 import MainMenu from './components/MainMenu';
 import Navbar from './components/Homepage/Navbar';
+import AboutTheTeam from './components/AboutTheTeam';
+import './components/About/AboutUs.css'
+
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
                 <Route exact path="/about" element={<About />}></Route>
                 <Route exact path="/contact" element={<Contact />}></Route>
                 <Route exact path="/menu" element={<MainMenu />}></Route>
+                <Route exact path="/abouttheteam" element={<AboutTheTeam />}></Route>
             </Routes>
 
         </Router>
