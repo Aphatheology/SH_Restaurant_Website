@@ -4,69 +4,16 @@ import './AboutUs.css'
 function AboutUs() {
   return (
     <div className='aboutus'>
-        <h2>SH Restaurant - Group 38</h2>
-            <p>
-                We are a group of 8 members with active 5 Members. <br></br>
-                Below are the details of Members involved in this project
-            </p>
-
-            <div className='container'>
-                <div>
-                    <h3>Abdulkareem Mustopha - Team Lead</h3>
-                    <p>
-                        <ul>
-                            <li>Design the Homepage, Navbar and About Us Page</li>
-                        </ul>
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Favour - Team Member</h3>
-                    <p>
-                        <ul>
-                            <li>Design the Menu Page</li>
-                        </ul>
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Emmanuel - Team Member</h3>
-                    <p>
-                        <ul>
-                            <li>Design the Footer</li>
-                        </ul>
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Chimdi - Team Member</h3>
-                    <p>
-                        <ul>
-                            <li>Design the Contact Us Page</li>
-                        </ul>
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Moses - Team Member</h3>
-                    <p>
-                        <ul>
-                            <li>Design the About Us Page</li>
-                        </ul>
-                    </p>
-                </div>
-
-            </div>
-
+        <h2>About SH-Restaurant</h2>
+        <p>
+            SH Restaurant is the most convenient online food ordering site, connecting people with the best restaurants around them.
+            <br></br><br></br>
+            We believe food is a pleasure and food ordering should be fast and definitely fun experience. 
+            <br></br><br></br>
+            On your mobile, tablet, desktop or via our app, SH Restaurant is a delicious experience! SH Restaurant Coorporate Service: With the most advanced corporate food delivery of its kind, SH Restaurant helps you treat your employees to the best lunch delivery service available. 
             
-
-            
-
-            
-
-            
-
-            
+            <br></br><br></br>For more information, contact our corporate team via <a href='/contact'>Contact Us</a>
+        </p>  
     </div>
   )
 }

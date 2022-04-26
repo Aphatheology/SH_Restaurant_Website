@@ -31,6 +31,12 @@ function Navbar() {
                         Contact Us
                     </li>
                 </Link>
+
+                <Link to="/abouttheteam">
+                    <li>
+                        The Team
+                    </li>
+                </Link>
                 
                 
             </ul> 
