@@ -31,7 +31,6 @@ label {
     margin: 10px auto 0px;
     width: 95%;
     text-align: center;
-    border: 1px solid red;
     
    }
    
@@ -54,7 +53,7 @@ label {
 .formPic img{
     height: 500px;
     width: 90%;
-    
+    display: none;
 
 }
 
@@ -63,9 +62,3 @@ label {
     background-color: darkgoldenrod;
 
 }
-@media (max-width: 668px) {
-    .formPic{
-        display: none;
-    }
-   
-    }
