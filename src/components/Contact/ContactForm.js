@@ -25,7 +25,7 @@ function ContactForm() {
 <div className='input'><label for="story">Tell us how you feel:</label>
 
 <textarea id="story" name="story"
-          rows="13" cols="60">
+          rows="13" cols="30">
 Tell us how you feel...
 </textarea></div>
 <div className='input'><input type="submit" value="Submit" className='submit'></input></div>

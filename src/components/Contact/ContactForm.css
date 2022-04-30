@@ -10,40 +10,50 @@
     font-family: 'Cormorant Upright', serif;
     color: hsla(47, 55%, 70%, 1);
     background-color: hsla(0, 9%, 2%, 1);
-    
+    width: 100%;
+    margin: 10px auto 0px;
    
 }
 .input{
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 10px;
-    width: 550px;
+    display: inline-block;
+    width: 90%;
+    margin: 0px auto;
     
+}
+label {
+    padding: 10px;
 }
 .form{
     padding: 20px;
+    margin: 10px auto 0px;
+    width: 95%;
+    text-align: center;
     
    }
    
 .formContain{
-  
-    width: 100%;
+    margin: 10px auto 0px;
+    width: 95%;
     text-align: center;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; */
    
 }
 .formPic{
     height: 500px;
-    width: 500px;
+    width: 90%;
+    display: none;
  
 
 }
 .formPic img{
     height: 500px;
-    width: 400px;
-    
+    width: 90%;
+    display: none;
 
 }
 
@@ -52,9 +62,3 @@
     background-color: darkgoldenrod;
 
 }
-@media (max-width: 668px) {
-    .formPic{
-        display: none;
-    }
-   
-    }
